@@ -21,12 +21,14 @@ int printEven(int iNo){
     int iCnt = 0;
     for(iCnt =1; iCnt<=iNo; iCnt++){
         printf("%d\t", 2*iCnt);
+        
     }
+    // pr;intf("\n")
 }
 // Entry Fuction
 int main(){
     int iValue =0;
-    printf("Enter Number");
+    printf("Enter Number\n");
     scanf("%d\n", &iValue);
     printEven(iValue);
 
