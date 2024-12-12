@@ -12,6 +12,6 @@ int main(){
     scanf("%c", &cValue);
 
     Display(cValue);
-
+    printf("fs");
     return 0;
 }
