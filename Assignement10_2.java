@@ -21,10 +21,12 @@ class Rangef
 {
     void CircleArea(int iNo1, int iNo2)
     {
-        int sum =0 ;
         for(int i = iNo1; i < iNo2; i++)
         {
-           sum+=1;
+            if(i % 2 == 0)
+            {
+                System.out.println(i);
+            }
         }
         if(iNo1 > iNo2)
         {
